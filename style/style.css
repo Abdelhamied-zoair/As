@@ -1,0 +1,221 @@
+*{
+
+    padding: 0;
+}
+@media only screen and (max-width:1600px) and (min-width:300px){
+.links{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+/* */
+
+.links a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #444;
+    font-style: italic;
+    font-family:sans-serif;
+    font-weight: 20px;
+    
+}
+
+
+a{
+
+
+    margin-right: 20px;
+
+}
+.logo{
+
+    float: left;
+    clear: left;
+    margin-left: 15px;
+ 
+}
+.fa-phone-alt{
+    margin-left: 10px;
+}
+
+
+form{
+    float: right;
+    clear: right;
+
+    margin-right: 10px;
+
+
+}
+.btn{
+  
+    color: blue;
+    border-color: #7B68EE;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.btn:hover{
+
+background-color: #7B68EE;
+
+}
+
+}
+@media only screen and (max-width:1600px) and (min-width:900px){
+
+
+section{
+
+    width: 100%;
+    height: 70vh;
+
+}
+img{
+    float: right;
+    clear: right;
+    margin-top: 20px;
+    margin-right: 30px;
+}
+.text{
+    width: 90%;
+    position: absolute;
+    color:#444;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%); 
+}
+.text h1{
+    font-size: 30px;
+
+    font-style: italic;
+}
+.text p{
+    margin: 10px 0 40px;
+    font-size: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+  color: #444;
+}
+
+.card3{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    padding-top: 15px;
+}
+.card2{
+    width: 100%;
+    height: 100vh;
+}
+.card img{
+    margin-top: 0%;
+}
+h3{
+    margin-right: 20px;
+}
+.card .btn{
+    background-color: white;
+    color: #444;
+
+}
+.card .btn:hover{
+    background-color: #7B68EE;
+}
+.card8{
+    width: 100%;
+    height: 80vh;
+
+}
+.card5{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+.view{
+
+    width: 100%;
+    height: 70vh;
+
+}
+.text2{
+
+    position: absolute;
+   
+ text-align: right;
+ left: 50%;
+margin-top: 100px;
+
+}
+h2{
+    color: #444;
+    font-style: italic;
+    font-size: 30px;
+}
+.text2 h3{
+    color: #444;
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+.view img{
+
+    float: left; 
+    clear: left;
+    margin-left: 50px;
+
+
+}
+.page-section{
+    height: 40vh;
+    width: 100%;
+}
+.text2 .btn{
+
+    color:#444;
+    border-color:#E6E6FA ;
+    background-color:#E6E6FA;
+    margin-top: 10px;
+    margin-right: 15px;
+}
+.text2 .btn:hover{
+    background-color:#9dd3e6;
+}
+}
+footer{
+
+    margin-top: 60px;
+    width: 100%;
+    background-color:#282A35 ;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+.btn1{
+    padding: 4px 8px ;
+    border-color: black;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-style: italic;
+    border-radius: 5px;
+
+}
+.btn7 {
+    margin-top: 5px;
+    padding: 4px 8px ;
+    border-color: black;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-style: italic;
+    border-radius: 5px;
+}

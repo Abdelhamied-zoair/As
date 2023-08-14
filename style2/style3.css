@@ -1,0 +1,64 @@
+.form{
+    
+    top: 20%;
+    position: absolute;
+    left: 30%;    
+}
+input{
+
+width: 100%;
+
+padding: .375rem .75rem;
+
+line-height: 1.5;
+
+background-color: #fff;
+background-clip: padding-box;
+border: 1px solid #ced4da;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+input:hover{
+    border-color: #343a40;
+}
+.input-number{
+
+    
+width: 20%;
+
+padding: .375rem .75rem;
+
+line-height: 1.5;
+
+background-color: #fff;
+
+border: 1px solid #ced4da;
+border-radius: .25rem;
+transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+select{
+    width: 25%;
+
+padding: .375rem .75rem;
+
+background-color: #fff;
+
+border: 1px solid #ced4da;
+border-radius: .25rem;
+
+}
+.submit{
+    width: 25%;
+
+    padding: .375rem .75rem;
+    margin-top: 10px;
+    background-color: gray;
+    color: white;
+    border: 1px solid #ced4da;
+    border-radius: .25rem
+}
+.submit:hover{
+
+    background-color: #343a40;
+    width: 30%;
+}
